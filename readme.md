@@ -1,8 +1,8 @@
 # URI Online Judge
 
-<div style="margin: 0 auto;">
+<p align="center">
   <img src="./assets/uri.png">
-</div>
+</p>
 
 URI Online Judge is a project developed for you! Our goal is to provide a platform where you can learn, practice and sharpen your skills in algorithms and programming languages. 
 
