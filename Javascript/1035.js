@@ -10,8 +10,8 @@
  * Mostre a respectiva mensagem após a validação dos valores.
  */
 
-//var input = require("fs").readFileSync("/dev/stdin", "utf8");
-//var lines = input.split("\n");
+var input = require("fs").readFileSync("/dev/stdin", "utf8");
+var lines = input.split("\n");
 var aux = lines.shift().split(" ");
 
 var A = parseInt(aux.shift());
