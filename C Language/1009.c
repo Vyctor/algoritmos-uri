@@ -1,4 +1,5 @@
-# Salário com Bônus
+/**
+ * # Salário com Bônus
 
 Faça um programa que leia o nome de um vendedor, o seu salário fixo e o total de vendas efetuadas por ele no mês (em dinheiro). Sabendo que este vendedor ganha 15% de comissão sobre suas vendas efetuadas, informar o total a receber no final do mês, com duas casas decimais.
 
@@ -9,3 +10,19 @@ O arquivo de entrada contém um texto (primeiro nome do vendedor) e 2 valores de
 ## Saída
 
 Imprima o total que o funcionário deverá receber, conforme exemplo fornecido.
+*/
+
+#include <stdio.h>
+int main()
+{
+  char nomeVendedor[60];
+  double salarioFixo;
+  double totalVendas;
+  double totalSalario;
+
+  scanf("%s", nomeVendedor);
+  scanf("%lf %lf", &salarioFixo, &totalVendas);
+  totalSalario = (totalVendas * 0.15) + salarioFixo;
+  printf("TOTAL = R$ %.2lf\n", totalSalario);
+  return 0;
+}
